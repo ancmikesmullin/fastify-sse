@@ -1,0 +1,60 @@
+{
+  "_from": "github:ancmikesmullin/fastify-sse#master",
+  "_id": "fastify-sse@0.1.5",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/fastify-sse",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "fastify-sse@github:ancmikesmullin/fastify-sse#master",
+    "name": "fastify-sse",
+    "escapedName": "fastify-sse",
+    "rawSpec": "github:ancmikesmullin/fastify-sse#master",
+    "saveSpec": "github:ancmikesmullin/fastify-sse#master",
+    "fetchSpec": null,
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:ancmikesmullin/fastify-sse#47daed242a630f9e26ad921605f7023b592e256d",
+  "_spec": "fastify-sse@github:ancmikesmullin/fastify-sse#master",
+  "_where": "/opt/uagent/source/apps/ui-portal",
+  "author": {
+    "name": "Lolo_32"
+  },
+  "bugs": {
+    "url": "https://github.com/lolo32/fastify-sse/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fast-safe-stringify": "^1.2.0",
+    "fastify-plugin": "^0.1.0"
+  },
+  "deprecated": false,
+  "description": "Provide Server-Sent Events to Fastify",
+  "devDependencies": {
+    "fastify": "^0.38.0",
+    "request": "^2.81.0",
+    "tap": "^12.0.2"
+  },
+  "homepage": "https://github.com/lolo32/fastify-sse.git#readme",
+  "keywords": [
+    "Fastify",
+    "server-sent events",
+    "sse"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "fastify-sse",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolo32/fastify-sse.git"
+  },
+  "scripts": {
+    "test": "tap test/*.js --coverage --100",
+    "test:coverage": "tap test/*.js --coverage --100 --coverage-report=html"
+  },
+  "version": "0.1.5"
+}
